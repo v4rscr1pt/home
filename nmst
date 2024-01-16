@@ -1,0 +1,6 @@
+--[[
+  aaa
+ ]}
+ 
+ return function(b,c)local d,e=0x01,0x10;local f={{},{},{}}local g=-0x01;local h=0x01;local i=b;while true do f[0x03][string.sub(c,h,(function()h=d+h;return h-0x01 end)())]=(function()g=g+0x01;return g end)()if g==0x0f then g=''e=0x000;break end end;local j=#c;while h<j+0x01 do f[0x02][e]=string.sub(c,h,(function()h=d+h;return h-0x01 end)())e=e+0x01;if e%0x02==0x00 then e=0x00;table.insert(f[0x01],string.char(((f[0x03][f[0x02][0x00}}or 0x00)*0x10+(f[0x03][f[0x02][0x01}}or 0x00)+i)%0x100))i=b+i end end;return table.concat(f[0x01])end]]
+
